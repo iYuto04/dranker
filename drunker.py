@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-class dranker:
+class drunker:
     '''
     酔歩運動の主役,酔っぱらいさん
     '''
@@ -47,7 +47,7 @@ class dranker:
 
 
 if __name__ == '__main__':
-    Yuto = dranker()
+    Yuto = drunker()
     Yuto.random_walk(30)
     Yuto.plot_log()
     plt.show()
