@@ -43,9 +43,11 @@ def plot_drunkers_trajectory(drunkers):
 if __name__ == '__main__':
     start_time = time.time()
 
+    # plot_drunkers_hist(time_step)
+
+
     time_step = 1000
     drunkers = drunk_group(1000, time_step)
-    # plot_drunkers_hist(time_step)
     plot_drunkers_trajectory(drunkers)
 
     elapsed_time = time.time() - start_time
